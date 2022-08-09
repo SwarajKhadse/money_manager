@@ -1,6 +1,8 @@
 
 import './App.css';
 import Dashboard from './Dashboard/Dashboard';
+import In from './Dashboard/In';
+import Transaction from './Dashboard/Transaction';
 import Login from './Login/Login';
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <div className="App">
       <Login />
       <Dashboard />
+      {/* <In/> */}
+      <Transaction/>
     </div>
   );
 }
