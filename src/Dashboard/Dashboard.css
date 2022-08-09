@@ -1,0 +1,121 @@
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  background-color: #a5c9ca;
+}
+
+.dashboard_header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user_info {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+}
+.user_profile {
+  width: 60px;
+  height: 60px;
+  background-color: mediumslateblue;
+  border-radius: 50%;
+}
+
+.user_name {
+  font-size: 20px;
+  color: white;
+}
+
+/* ////......header endss/..///// */
+.container-1 {
+  width: 100%;
+  padding: 0px 150px;
+}
+.colum-1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  row-gap: 30px;
+  flex-direction: column;
+  padding: 20px 50px 20px 30px;
+  /* padding: 80px ; */
+}
+.money_detail {
+  /* height: 100px; */
+  padding: 20px 20px;
+  background-color: #E7F6F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  border-radius: 20px;
+}
+.total {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.amount {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.money_thing {
+  height: 300px;
+  background-color: #E7F6F2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  border-radius: 20px;
+}
+.cash_in {
+  width: 150px;
+  height: 100px;
+  background-color: #A6CAA5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.cash_out {
+  width: 150px;
+  height: 100px;
+  background-color: #D8AB9C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.colum-2 {
+  background-color: #E7F6F2;
+  margin-top: 20px;
+  padding: 20px 50px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.money_transactions {
+  
+  background-color: blueviolet;
+}
