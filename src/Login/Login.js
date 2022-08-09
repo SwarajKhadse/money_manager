@@ -3,7 +3,11 @@ import './login.css'
 
 export default function Login() {
     return (
+
+       
+
         <>
+        
             <div className='login'>
                 <div className='login-main m-2'>
                     <h2 className='text-center p-2 login-head'>My Money</h2>
@@ -37,5 +41,6 @@ export default function Login() {
                 </div>
             </div>
         </>
+
     )
 }
